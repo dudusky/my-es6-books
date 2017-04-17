@@ -56,7 +56,7 @@
   f(1, 2, "hi", 9, 20, 55) 
   ```
   
-  * 数组参数
+* 数组参数
 
     ​    连接数组
 
@@ -71,15 +71,15 @@
   ```
 
 
-    将字符串字符分割转换为数组
+  将字符串字符分割转换为数组
 
-  ```
-  //使用ES6
-  var str = "foo"
-  var chars = [ ...str ] // [ "f", "o", "o" ] 
+   ```
+   //使用ES6
+   var str = "foo"
+   var chars = [ ...str ] // [ "f", "o", "o" ] 
 
-  //使用ES5
-  var str = "foo"
-  var chars = str.split("");  // [ "f", "o", "o" ]
+   //使用ES5
+   var str = "foo"
+   var chars = str.split("");  // [ "f", "o", "o" ]
   
- ```
+  ```
