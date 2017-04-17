@@ -2,7 +2,7 @@
 
 * 变量的结构赋值
 
- ```JavaScript
+ ```js
  let singer = { first: "Bob", last: "Dylan" }; 
 
  let { first: f, last: l } = singer;  // 相当于 f = "Bob", l = "Dylan"
@@ -14,7 +14,7 @@
 
 * 函数参数的结构赋值
 
-  ```JavaScript
+  ```js
   function add([x, y]) {
     return x + y;
   }
@@ -23,7 +23,7 @@
 
 * 为函数参数设置初始值
 
-  ```JavaScript
+  ```js
   //ES6参数赋值
   function f(x, y = 10, z = 20) {
     return x + y + z;
@@ -46,7 +46,7 @@
 
   > 设置更多的参数作为一个数组(与类数组argument不同), 好处是可以使用数组方法.
 
-  ```JavaScript
+  ```js
   function f (x ,y, ...restAr) {
     var a = restAr
     console.log(a) //array
@@ -58,22 +58,19 @@
   
 * 数组参数
 
-    ​    连接数组
-
-  ```JavaScript
+   连接数组
+  ```js
   //使用ES6
   var params = [ "hello", true, 7 ]
   var other = [ 1, 2, ...params ] // [ 1, 2, "hello", true, 7 ]
 
   //ES5写法
   var params = [ "hello", true, 7 ];
-  var other = [ 1, 2 ].concat(params); // [ 1, 2, "hello", true, 7 ]
+  var other = [ 1, 2 ].concat(params); // [ 1, 2, "hello", true, 7       ]
   ```
 
-
-  将字符串字符分割转换为数组
-
-   ```
+   将字符串字符分割转换为数组
+   ```js
    //使用ES6
    var str = "foo"
    var chars = [ ...str ] // [ "f", "o", "o" ] 
