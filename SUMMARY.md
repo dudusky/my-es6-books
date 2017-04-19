@@ -33,4 +33,5 @@
 * JavaScript之代码规范
 * JavaScript之指针
 * [JavaScript之API文档撰写](javascriptzhi-api-wen-dang-zhuan-xie.md)
+* [ajax原理](ajaxyuan-li.md)
 
